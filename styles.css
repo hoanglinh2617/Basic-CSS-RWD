@@ -1,0 +1,45 @@
+body {box-sizing: border-box;}
+.header {width:100%;
+font-size:30px;
+color:pink;
+background-color: rgb(67, 63, 63);}
+.card {float:left;
+margin:1%;
+box-sizing:border-box;
+border:1px solid rgb(193, 98, 113);
+opacity:0.5;
+
+}
+.card-des {text-align: center; font-size:18px;}
+.card:hover {border: 2px solid gold;
+    opacity:1;
+box-shadow: 5px -5px 5px 5px   rgb(185, 181, 181);}
+
+.footer {clear:both;
+    font-size: 20px;
+}
+
+/* For bigger than 700px */
+@media only screen and (min-width:700px)
+{
+    .card {width:23%;
+    box-sizing:border-box;
+}
+}
+
+/* For smaller than 700px */
+@media only screen and (max-width:700px)
+{  .card {width:46%;
+    box-sizing:border-box;}
+    .header {font-size:20px;}
+}
+/* For smaller than 500px */
+@media only screen and (max-width:500px)
+{  .card {width:100%;
+    box-sizing:border-box;
+}
+.header {font-size:15px;}
+}
+
+
+
